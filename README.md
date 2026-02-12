@@ -1,28 +1,49 @@
-import ProfileCard from "./components/ProfileCard";
+# 🚀 Profile Badge
 
-function App() {
-  return (
-    <div style={{
-      minHeight: "100vh",
-      display: "flex",
-      justifyContent: "center",
-      alignItems: "center",
-      background: "#020617"
-    }}>
-      <ProfileCard
-  name="Manju Gowda"
-  
-  handle="_manju.gowda_"
-  status="Online"
-  avatarUrl="/pto.png"
-  miniAvatarUrl="/pto.png"
-  onContactClick={() =>
-    window.open("https://www.instagram.com/_manju.gowda_/", "_blank")
-  }
-/>
+An interactive **React + Vite** profile card featuring:
 
-    </div>
-  );
-}
+✨ 3D tilt effect  
+✨ Holographic shine & glare  
+✨ Glassmorphism UI  
+✨ Responsive design  
+✨ Custom avatar & social handle  
 
-export default App;
+---
+
+## 📸 Preview
+
+![Preview](./pto.png)
+
+---
+
+## 🛠️ Built With
+
+- React
+- Vite
+- CSS3 (Advanced effects)
+- JavaScript
+
+---
+
+## 🎯 Features
+
+- Smooth 3D tilt animation
+- Dynamic lighting effects
+- Glass-style user info panel
+- Mobile responsive layout
+- Customizable props
+
+---
+
+## 🚀 Live Demo
+
+👉 [View Live Site](https://your-vercel-link.vercel.app)
+
+---
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/profile.git
